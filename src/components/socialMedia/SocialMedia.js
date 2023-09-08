@@ -127,6 +127,30 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      
+      {socialMediaLinks.codepen ? (
+        <a
+          href={socialMediaLinks.codepen}
+          className="icon-button codepen"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-codepen"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.leetcode ? (
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="cib-leetcode"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

@@ -6,8 +6,8 @@
   min-height: 100vh;
 }
 
-.splash-animation-container {
-  height: 50vh;
+.splash-animation-container svg {
+  height: 50vh !important;
 }
 
 .splash-title-container {

@@ -106,9 +106,8 @@
 .experience-text-date {
   text-align: center;
   color: $textColor;
-  font-size: 20px;
+  font-size: 14px;
   margin: 0px;
-  padding-top: 1rem;
   font-weight: 600;
 }
 
@@ -119,6 +118,10 @@
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+}
+
+.experience-text-details > ul > .subTitle {
+  font-size: 0.9rem;
 }
 
 /* Media Query */

@@ -73,16 +73,44 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-cplusplus-line"
     },
     {
+      skillName: "Rust",
+      fontAwesomeClassname: "fab fa-rust"
+    },
+    {
       skillName: "Spring",
       fontAwesomeClassname: "devicon-spring-plain"
+    },
+    {
+      skillName: "Flask",
+      fontAwesomeClassname: "devicon-flask-original"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "devicon-nodejs-plain"
+    },
+    {
+      skillName: "Grafana",
+      fontAwesomeClassname: "devicon-grafana-original"
+    },
+    {
+      skillName: "Prometheus",
+      fontAwesomeClassname: "devicon-prometheus-original"
     },
     {
       skillName: "MySQL",
       fontAwesomeClassname: "devicon-mysql-plain"
     },
     {
+      skillName: "SQLite",
+      fontAwesomeClassname: "devicon-sqlite-plain"
+    },
+    {
       skillName: "MongoDB",
       fontAwesomeClassname: "devicon-mongodb-plain"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "devicon-redis-plain"
     },
     {
       skillName: "Apache Kafka",
@@ -93,12 +121,48 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "Amazon S3",
+      fontAwesomeClassname: "fab si si-amazons3"
+    },
+    {
+      skillName: "Amazon EC2",
+      fontAwesomeClassname: "fab si si-amazonec2"
+    },
+    {
+      skillName: "Amazon EKS",
+      fontAwesomeClassname: "fab si si-amazoneks"
+    },
+    {
+      skillName: "Amazon RDS",
+      fontAwesomeClassname: "fab si si-amazonrds"
+    },
+    {
+      skillName: "Amazon SQS",
+      fontAwesomeClassname: "fab si si-amazonsqs"
+    },
+    {
+      skillName: "Amazon Route52",
+      fontAwesomeClassname: "fab si si-amazonroute53"
+    },
+    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "Kubernetes",
       fontAwesomeClassname: "devicon-kubernetes-plain"
+    },
+    {
+      skillName: "Apache Maven",
+      fontAwesomeClassname: "fab si si-apachemaven"
+    },
+    {
+      skillName: "Jenkins",
+      fontAwesomeClassname: "devicon-jenkins-plain"
+    },
+    {
+      skillName: "SonarQube",
+      fontAwesomeClassname: "fab si si-sonarqube"
     },
     {
       skillName: "Git",
@@ -242,7 +306,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 

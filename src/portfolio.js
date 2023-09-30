@@ -119,11 +119,11 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Engineering",
       duration: "September 2022 - April 2024",
       desc: "",
+      coursework: "Network Systems, Distributed Systems, and Operating Systems",
       descBullets: [
-        "Volunteering work focused on internet measurement research",
-        "Contributed to research centered on the privacy of smart IoT devices",
-        "Worked course projects such as P2P file transfer server, hadoop architecture and QoS metric analysis",
-        "Pursued coursework in network systems, distributed systems, and operating systems"
+        "Conducting research project under Prof. Sangeetha Abdu Jyothi to understand the impact of IXPs in the internet",
+        "Made significant contributions towards a research project supervised by Prof. Athina Markopolou on the privacy of smart IoT devices through performing data collection of network traffic and aiding in fingerprinting methods.",
+        "Gained hands-on experience with projects such as P2P File Discovery Service, Hadoop Architecture Analysis, and Quality of Service (QoS) analysis of congestion mechanisms",
       ]
     },
     {
@@ -132,9 +132,9 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Information and Communication Technology",
       duration: "July 2016 - July 2020",
       desc: "",
+      coursework: "Analysis of Algorithms, Operating Systems, Computer Networks, Cloud Computing, Machine learning, and Optimization Techniques",
       descBullets: [
-        "Volunteered in research related image segmentation using hypergraphs",
-        "Pursued coursework in computer networks, operating systems, analysis of algorithms, cloud computing, machine learning and optimization techniques"
+        "Volunteered in research related image segmentation using hypergraphs"
       ]
     }
   ]
@@ -242,7 +242,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -287,7 +287,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Source Code",
-          url: "https://github.com/mahanthathreyee/strava-local-heatmap"
+          url: "https://github.com/RahulJois/strava-privacy-analysis"
         },
         {
           name: "Report",

@@ -54,6 +54,16 @@ export default function EducationCard({school}) {
               >
                 {school.duration}
               </p>
+              <p
+                className={`${
+                  isDark ? "dark-mode" : ""
+                } education-text-duration`}
+              >
+                Relevant Coursework:  
+                <span className="subTitle" style={{"margin-left": '10px'}}>
+                  {school.coursework}
+                </span>
+              </p>
               <p className="education-text-desc">{school.desc}</p>
               <div className="education-text-bullets">
                 <ul>
